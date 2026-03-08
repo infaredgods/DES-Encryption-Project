@@ -3,6 +3,9 @@
 // COMP 485
 // 9 March 2026
 
+import database.EncryptionDAO;
+import java.util.Base64;
+import encryption.*;
 import java.awt.event.ActionEvent;
 import java.io.File;
 import javax.crypto.SecretKey;
